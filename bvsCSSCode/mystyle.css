@@ -1,0 +1,298 @@
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    #navbar{
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+    }
+
+
+    #navbar::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        /* dont remove this, this is very important */
+        top: 0px;
+        left: 0px;
+        height: 95%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+
+    #navbar ul {
+        display: flex;
+        font-family: 'Baloo Paaji 2', cursive;
+    }
+
+
+    #navbar li {
+        display: flex;
+        text-decoration: none;
+
+    }
+
+    #navbar ul li a {
+        margin: 10px 15px;
+        color: black;
+        display: block;
+        padding: 3px 25px;
+        font-size: 1rem;
+        border-radius: 7px;
+        text-decoration: none;
+        border: 2px solid white;
+        background-color: white;
+    }
+
+
+    #navbar ul li a:hover {
+        background-color: rgb(240, 231, 231);
+        font-weight: bold;
+    }
+
+    /* #navbar ul li a:visited {
+        color:rgb(77, 72, 72);
+    } */
+
+    #logo {
+        margin: 10px 5px;
+    }
+
+    #logo img {
+        margin: 0px 15px;
+        height: 50px;
+        border-radius: 44px;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+
+    .home-select {
+        display: flex;
+        flex-direction: column;
+        height: 565px;
+        padding: 0px 350px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home::before {
+        content: "";
+        background: url("../bvscodepics/computer\ desk3.jpg") no-repeat center center/cover;
+        position: absolute;
+        /* dont remove this, this is very important */
+        top: 0px;
+        left: 0px;
+        height: 85%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.89;
+    }
+
+
+    #home h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+        font-family: 'Baloo Paaji 2', cursive;
+        padding: 3px 20px;
+        border-radius: 12px;
+        border: 2px solid white;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+    }
+
+    .btn:hover {
+        background-color: rgb(240, 234, 234);
+        font-weight: bold;
+    }
+
+    .btn:visited {
+        /* color: rgb(99, 99, 95); */
+        color: yellow;
+    }
+
+
+    #home p {
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: 'Bree Serif', serif;
+        margin-bottom: 55px;
+    }
+
+    /* Services Section */
+
+    .Services-container {
+        padding-bottom: 0px;
+        padding-left: 0px; 
+        background-color: yellowgreen;
+    }
+
+    #Services {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Services .box {
+        border: 2px solid rgb(176 169 169);
+        padding: 20px 11px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 15px;
+
+        border-radius: 10px;
+        height: 220px;
+        width: 415px;
+        background-color: rgb(214 214 229);
+    }
+
+    #Services .box img {
+        height: 55px;
+        margin: auto;
+        display: block;
+        border-radius: 5px;
+    }
+
+
+    #Services .box p {
+        font-size: 1rem;
+        /* font-family: 'Bree Serif', serif; */
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    /* cource section */
+    #cources-prog {
+        height: 100%;
+        width: 100%;
+        background-color: #e2e2e2;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #cources {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #cources .cource-item img {
+        height: 190px;
+        margin: auto;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+    }
+
+    #cources .cource-item p {
+        font-size: 15px;
+        /* font-family: 'Bree Serif', serif; */
+        margin-bottom: 15px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #cources .box {
+        border: 2px solid #bdbbbb;
+        padding: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+        /* margin: 40px; */
+        border-radius: 10px;
+        height: 460px;
+        width: 300px;
+        background-color: white;
+    }
+
+    .heading3 {
+        font-size: 1.35rem;
+        font-family: 'Bree Serif', serif;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+
+
+    #cources .cource-item {
+        font-size: 3rem;
+    }
+
+    .btnpro {
+        font-size: 1.20rem;
+        font-family: 'Baloo Paaji 2', cursive;
+        padding: 1px 30px;
+        border-radius: 5px;
+        border: 2px solid white;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+    }
+
+    .btnpro:hover {
+        background-color: rgb(243, 234, 234);
+        border: 2px solid rgb(190, 184, 184);
+    }
+
+    /* .btnpro:visited {
+        color: yellow;
+    } */
+
+    /* Footer section */
+
+    footer {
+        font-size: 1.2rem;
+        background-color: black;
+        color: white;
+        padding: 20px 10px;
+        margin-bottom: 3px;
+    }
+
+    /* Utillity classes */
+
+    .h-primary {
+        font-size: 1.89rem;
+        padding: 12px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .h-secondary {
+        font-size: 1.6rem;
+        padding: 12px;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .h-trd{
+        font-size: 1.89rem;
+        /* padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px; */
+        font-family: 'Bree Serif', serif;
+        /* margin-right: 0px; */
+    }
+
+    .center {
+        text-align: center;
+    }
+

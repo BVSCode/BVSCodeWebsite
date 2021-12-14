@@ -1,0 +1,110 @@
+/* navigation */
+#navbar {
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar{
+    height: 265px;
+    transition: all 0.3s ease-out;
+}
+
+.nav-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav#navbar ul li a{
+    font-size: 11px;
+    padding: 0px 7px;
+}
+
+/* home */
+
+.home-select-resp {
+    height: 473px;
+    padding: 0px 50px;
+}
+
+section#home::before{
+    height: 545px;
+}
+
+section#home p {
+    font-size: 15px;
+    
+}
+
+/* services */
+/* #Services-container {
+    height: 775px;
+} */
+
+
+
+#Services {
+    flex-direction: column;
+}
+
+#Services .box{
+    height: auto;
+    width: auto;
+}
+
+/* #Services .box {
+    
+} */
+
+/* cource */
+#cources {
+    flex-direction: column;
+}
+
+#cources .box {
+    width: 265px;
+}
+
+#cources .cource-item img {
+    height: 165px;
+}
+
+/* footer */
+
+
+/* utility classes */
+h1.h-primary {
+    font-size: 25px;
+}
+
+a.btn {
+    font-size: 15px;
+}
+
+.h-trd {
+    font-size: 25px;
+}
+
+.burger{
+    display: block;
+   position: absolute;
+   cursor: pointer;
+   right: 5%;
+   top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.h-nav{
+    height: 75px;
+}
+
+.v-class{
+    opacity: 0;
+}
